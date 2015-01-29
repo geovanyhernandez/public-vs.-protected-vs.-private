@@ -5,5 +5,8 @@ Estamos accediendo a la clase A de fuera de su paquete, ya que una clase no es p
 por lo que no se puede acceder desde el exterior del paquete.*/
 package pack;  
 class A{  
-  void msg(){System.out.println("Hola");}  
+  void msg(){
+      System.out.println("Hola");
+      
+  }  
 }  
